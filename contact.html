@@ -16,10 +16,10 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -30,10 +30,23 @@
     <div id="content" class="container">
       <div class="row">
         <div class="col-lg-6 mx-auto">
-          <h2>Bio</h2>
-          <img class="float-left mr-3" src="http://via.placeholder.com/200x150" alt="">
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+          <h2>Contact</h2>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name:</label>
+              <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email Address:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="your email here">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
 
         <div class="col-lg-3 mx-auto">
           <h3 class="text-center">Connect With Me</h3>

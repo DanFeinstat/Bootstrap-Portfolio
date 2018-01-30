@@ -1,3 +1,15 @@
 #content {
   margin-top: 20vh;
 }
+
+
+.cardTitle {
+  line-height:2em;
+  width:100%;
+  background:#61a8a5;
+}
+
+.cardOverlay {
+  padding-left: 0;
+  padding-right:0;
+}
