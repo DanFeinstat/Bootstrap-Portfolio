@@ -20,6 +20,13 @@ h3 {
   background:#61a8a5;
 }
 
+a{
+  color: white;
+}
+a:hover{
+  color:black;
+}
+
 @media (min-width: 576px) {
   .cardTitle {
     margin-top:70vh;
